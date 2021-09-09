@@ -1,2 +1,5 @@
-# assignment-1---team-project-proposal-nchawl2
-assignment-1---team-project-proposal-nchawl2 created by GitHub Classroom
+# Assignment 1: Project Proposal
+## Author: Neil Chawla (nchawl2)
+## CS 484, Fall '21
+
+Project proposal page coded as a basic HTML5 document.
