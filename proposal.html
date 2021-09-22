@@ -1,20 +1,65 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <title>Assignment 1: Proposal</title>
+
+        <style>
+            .top_bottom_container {
+                display: flex;
+                width: 80%;
+                margin: auto;
+                border: 3px solid green;
+                justify-content: space-evenly;
+            }
+
+            .top_bottom_content {
+                height: 150px;
+                line-height: 150px;
+                flex: 1 0 auto;
+                text-align: center;
+                border: 3px solid white;
+                margin: 10px;
+                background-color: lightgray;
+                color: black;
+            }
+
+            #center_container {
+                display: flex;
+                width: 80%;
+                margin: auto;
+                border: 3px solid green;
+                justify-content: space-evenly;
+            }
+
+            .center_box {
+                height: 600px;
+                line-height: 600px;
+                flex: 1 0 auto;
+                text-align: center;
+                border: 3px solid white;
+                margin: 10px;
+                background-color: lightgray;
+                color: black;
+            }
+        </style>
     </head>
+
     <body>
-        <header>
-            Topic
-        </header>
+        <div class="top_bottom_container">
+            <h1 class="top_bottom_content"> Topic </h1>
+        </div>
 
-        <section class="middlebox">Middle Section (Left)</section>
-        <section class="middlebox">Middle Section (Right)</section>
-
+        <div id="center_container">
+            <h2 class="center_box"> Box #1 </h2>
+            <h2 class="center_box"> Box #2 </h2>
+        </div>
+        
         <footer>
-            <div class="footer_box">Bottom Section (Left)</div>
-            <div class="footer_box">Bottom Section (Center)</div>
-            <div class="footer_box">Bottom Section (Right)</div>
+            <div class="top_bottom_container">
+                <h3 class="top_bottom_content"> Bottom Left </h3>
+                <h3 class="top_bottom_content"> Center </h3>
+                <h3 class="top_bottom_content"> Bottom Right </h3>
+            </div>
         </footer>
     </body>
 </html>
