@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'calibril';
+    src: url('font/calibril.woff2') format('woff2'),
+         url('font/calibril.woff') format('woff');
+}
+
+body {
+    font-family: 'calibril', Arial, Helvetica, sans-serif;
+}
+
+.top_container {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-evenly;
+}
+
+.top_content {
+    height: 150px;
+    line-height: 150px;
+    flex: 1 0 auto;
+    text-align: center;
+    margin: 10px;
+    background-color: lightgray;
+    color: black;
+}
+
+#center_container {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-evenly;
+}
+
+.center_box {
+    width: 50%;
+    height: 600px;
+    overflow-wrap: break-word;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: lightgray;
+    color: black;
+}
+
+.center_text {
+    text-align: left;
+    padding: 10px;
+}
+
+#bottom_container {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-evenly;
+    background-color: lightgray;
+}
+
+.bottom_content {
+    height: 150px;
+    overflow-wrap: break-word;
+    text-align: center;
+    margin: 10px;
+    width: 100%;
+    background-color: darkgray;
+    color: black;
+}
