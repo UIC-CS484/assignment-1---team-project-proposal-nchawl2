@@ -51,7 +51,7 @@ body {
 
 #bottom_container {
     display: flex;
-    width: 80%;
+    width: 78.5%;
     margin: auto;
     justify-content: space-evenly;
     background-color: lightgray;
@@ -96,7 +96,7 @@ body {
 
     #bottom_container {
         display: flex;
-        width: 60%;
+        width: 59%;
         margin: auto;
         justify-content: space-evenly;
         background-color: lightgray;
@@ -110,7 +110,7 @@ body {
         width: 100%;
         background-color: darkgray;
         color: black;
-        padding: 10px;
+        /* padding: 10px; */
     }
 }
 
@@ -150,4 +150,4 @@ body {
         margin: auto;
         border: 10px solid #6e6a69;
     }
-}
+} 
