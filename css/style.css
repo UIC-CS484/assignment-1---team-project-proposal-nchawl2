@@ -149,5 +149,6 @@ body {
         height: fit-content;
         margin: auto;
         border: 10px solid #6e6a69;
+        background-color: blueviolet;
     }
 } 
